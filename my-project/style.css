@@ -1,0 +1,286 @@
+body{
+    background-color: #fcf8f2ed;
+    margin: 0;
+    padding: 0;
+    font-family: "Gill Sans", sans-serif;
+    text-align: right;
+    line-height: 1.6;
+    text-align: left;
+    font-size: 20px;
+    color: #442f27;
+}
+
+#hero{
+    position: relative;
+}
+
+#hero video{
+    height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    z-index: 10;
+    object-fit: cover;
+}
+
+.content{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.baslik1{
+    color: rgb(201, 177, 117);
+    font-size: 30px;
+}
+
+h1{
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+    color: #3E2318;
+}
+
+h2{
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+    color: #3E2318;
+}
+
+.resim1{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin: auto;
+    float: right;
+    padding: 50px;
+}
+
+.resimler1{
+    display: flex;
+    padding: 5%;
+}
+
+.bir{
+    text-align: left;
+    padding: 8%;
+    font-size: 20px;
+    color: #3c1709;
+}
+
+.metin{
+    text-align: left;
+    padding: 8%;
+    font-size: 17px;
+    color: #442f27;
+}
+
+.sag{
+    float: left;
+    padding: 0 40px 0 20px;
+    border-radius: 20%;
+}
+
+.sag1{
+    float: left;
+    padding: 0 40px 0 20px;
+    border-radius: 40%;
+    width: 40%;
+}
+
+.sag2{
+    float: right;
+    padding: 0 10px 0 20px;
+}
+
+
+
+
+.container1{
+    position: relative;
+    width: 65%;
+}
+
+.resimm{
+    display: block;
+    width: 80%;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(36, 2, 2, 0.5);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.container1:hover .overlay{
+    width: 80%;
+}
+
+.metin1{
+    white-space: nowrap;
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+.container2{
+    position: relative;
+    width: 65%;
+    
+}
+
+.resimm1{
+    display: block;
+    width: 65%;
+    height: auto;
+}
+
+.overlay1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(36, 2, 2, 0.5);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.container2:hover .overlay1{
+    width: 65%;
+}
+
+.metin2{
+    white-space: nowrap;
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.galeri{
+    display: flex;
+    text-align: center;
+}
+
+.container3{
+    position: relative;
+    width: 65%;
+    
+}
+
+.resimm2{
+    display: block;
+    width: 65%;
+    height: auto;
+}
+
+.overlay2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(36, 2, 2, 0.5);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.container3:hover .overlay2{
+    width: 65%;
+}
+
+.metin3{
+    white-space: nowrap;
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.resim3{
+    float: right;
+    padding: 5%;
+    margin: 7%;
+    width: 35%;
+    border-radius: 30%;
+}
+
+
+
+.header {
+    text-align: center;
+    padding: 25px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10%;
+    margin: 0;
+    width: 100%;
+    
+}
+
+.column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width:800px) {
+    .column{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+
